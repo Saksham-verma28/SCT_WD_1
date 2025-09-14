@@ -11,7 +11,15 @@
 
   ## Project Structure (Important files)
 
-<pre> ```bash / (project root) ├─ src/ # React source files (components, styles, assets) ├─ index.html # Vite entry ├─ package.json # dependencies & scripts ├─ vite.config.ts # vite configuration (may be vite.config.js/ts) └─ README.md # this file ``` </pre>
+```
+/ (project root)
+├─ src/                # React source files (components, styles, assets)
+├─ index.html          # Vite entry
+├─ package.json        # dependencies & scripts
+├─ vite.config.ts      # vite configuration (may be vite.config.js/ts)
+└─ README.md           # this file
+```
+
 
   ### Tech stack / libraries
 
@@ -22,4 +30,5 @@ Vite (dev server & build)
 Radix UI components (navigation, dialog, tooltip, etc.)
 
 Recharts, lucide-react, react-hook-form, embla-carousel, sonner, and other utilities listed in package.json
+
 
